@@ -20,8 +20,9 @@ ages_group_list = []
 for age_item in ages_group.keys():
     ages_group_list.append({age_item: ages_group.get(age_item)})
 
-result = {'ages_group': ages_group_list, 'minors': minors, 'adults': adults}
+result = {
+    'ages_group': list(ages_group_list),
+    'minors': minors,
+    'adults': adults
+}
 print(result)
-
-
-

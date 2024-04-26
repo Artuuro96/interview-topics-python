@@ -15,7 +15,6 @@ S= "amazon" k=3
 
 
 def is_lex_smaller(s, substr):
-    print(s, substr, substr > s)
     return substr > s
 
 
