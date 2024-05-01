@@ -26,9 +26,6 @@ def max_pairs(rating, min_diff):
         if complement in complements:
             pairs.append([complement, rate])
 
-    if len(pairs) == 0:
-        return []
-
     return pairs
 
 
